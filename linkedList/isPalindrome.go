@@ -1,4 +1,4 @@
-package liknedList
+package linkedList
 
 func isPalindrome(head *ListNode) bool {
 	fast, slow := head, head

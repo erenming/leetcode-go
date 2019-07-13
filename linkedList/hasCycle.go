@@ -1,4 +1,4 @@
-package liknedList
+package linkedList
 
 
 /**
