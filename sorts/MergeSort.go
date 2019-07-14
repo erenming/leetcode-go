@@ -11,10 +11,10 @@ func mergeSort(arr []int, start, end int) {
 	mid := (start + end) / 2
 	mergeSort(arr, 0, mid)
 	mergeSort(arr, mid+1, end)
-	merge(arr, start, mid, end)
+	mergeArr(arr, start, mid, end)
 }
 
-func merge(arr []int, start, mid, end int) {
+func mergeArr(arr []int, start, mid, end int) {
 	aux := make([]int, end-start+1)
 	i := start
 	j := mid + 1

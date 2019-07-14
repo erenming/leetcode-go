@@ -46,3 +46,19 @@ func TestFindKth(t *testing.T) {
 	fmt.Println("序列：", arr)
 	fmt.Printf("第%d大元素为%d\n", k, FindKth(arr, k))
 }
+
+func TestBucketSort(t *testing.T) {
+	arr := []int{4,1,4,6,3,5,5,1}
+	fmt.Println("排序前：",arr)
+	BucketSort(arr)
+	fmt.Println("排序后：",arr)
+}
+
+func TestMerge(t *testing.T)  {
+	//arr := [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
+	arr := [][]int{{1, 4}, {0, 4}}
+
+	fmt.Println("合并前：", arr)
+	newarr := Merge(arr)
+	fmt.Println("合并后: ", newarr)
+}
