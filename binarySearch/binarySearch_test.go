@@ -1,6 +1,9 @@
 package binarySearch
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestFindFirstEqual(t *testing.T) {
 	a := []int{1, 3, 5, 8, 8, 8, 9, 10}
@@ -52,4 +55,9 @@ func TestFindLastLessEqual(t *testing.T) {
 	if FindLastLessEqual(0, a) != -1 {
 		t.Fail()
 	}
+}
+
+func TestSearchRange(t *testing.T) {
+	a := []int{5,7,7,8,8,10}
+	fmt.Println(searchRange(a, 8))
 }
