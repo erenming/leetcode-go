@@ -51,8 +51,8 @@ func (this *LRUCache) popTail() (*DLinkedNode) {
 
 
 func (this *LRUCache) Get(key int) int {
-	node := this.Cache[key]
-	if node == nil {
+	node, ok := this.Cache[key]
+	if !ok {
 		return -1
 	}
 	this.moveToHead(node)
@@ -61,8 +61,8 @@ func (this *LRUCache) Get(key int) int {
 
 
 func (this *LRUCache) Put(key int, value int)  {
-	existed := this.Cache[key]
-	if existed == nil {
+	existed, ok := this.Cache[key]
+	if !ok {
 		node := &DLinkedNode{key, value, nil, nil}
 		this.Cache[key] = node
 		this.AddNode(node)
