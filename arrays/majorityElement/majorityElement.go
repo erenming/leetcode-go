@@ -1,4 +1,4 @@
-package arrays
+package majorityElement
 
 func majorityElement(nums []int) int {
 	var count, major int

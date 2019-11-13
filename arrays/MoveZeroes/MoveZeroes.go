@@ -1,4 +1,4 @@
-package arrays
+package MoveZeroes
 
 func moveZeroes(nums []int)  {
 	index := 0

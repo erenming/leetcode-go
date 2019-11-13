@@ -1,4 +1,4 @@
-package arrays
+package twoSum
 
 // use a map
 func twoSum(nums []int, target int) []int {

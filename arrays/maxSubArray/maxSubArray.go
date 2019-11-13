@@ -1,4 +1,4 @@
-package arrays
+package maxSubArray
 
 import "math"
 

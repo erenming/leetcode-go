@@ -1,4 +1,4 @@
-package arrays
+package majorityElement
 
 import "testing"
 
