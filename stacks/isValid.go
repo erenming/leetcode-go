@@ -1,11 +1,14 @@
 package stacks
 
+import "strings"
+
 func match(a, b string) bool {
 	c := a + b
 	return (c == "()" || c == "[]" || c == "{}")
 }
 
 func isValid(s string) bool {
+	strings.Contains()
 	str := ""
 	for _, t := range s {
 		v := string(t)
