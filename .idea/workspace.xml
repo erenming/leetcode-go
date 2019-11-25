@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/camelMatch/camelMatch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/trie/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/MapSum/MapSum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stacks/isValid.go" beforeDir="false" afterPath="$PROJECT_DIR$/stacks/isValid.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +20,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="66" column="1" lean-forward="true" selection-start-line="4" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="99">
+              <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
               <folding>
                 <element signature="e#20#52#0" expanded="true" />
               </folding>
@@ -40,19 +39,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/runtime/panic.go">
+        <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="689" selection-start-line="689" selection-end-line="689" />
+            <state relative-caret-position="331">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/strings/strings.go">
+        <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="424" column="5" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
+            <state relative-caret-position="203">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-121">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#16#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/pkg/mod/github.com/stretchr/testify@v1.4.0/assert/assertions.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="332" column="5" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -60,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="228">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -94,12 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skiplist/skiplisk.go" />
-        <option value="$PROJECT_DIR$/binarySearch/findDuplicate.go" />
-        <option value="$PROJECT_DIR$/skiplist/skiplist_test.go" />
-        <option value="$PROJECT_DIR$/hashTable.go" />
-        <option value="$PROJECT_DIR$/hashTable/lru_test.go" />
-        <option value="$PROJECT_DIR$/hashTable/lru.go" />
         <option value="$PROJECT_DIR$/hashMap/hashMap.go" />
         <option value="$PROJECT_DIR$/binaryTree/mergeTwo.go" />
         <option value="$PROJECT_DIR$/binaryTree/mergeTwo/mergeTwo.go" />
@@ -145,6 +186,12 @@
         <option value="$PROJECT_DIR$/trie/trie/trie.go" />
         <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go" />
         <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch.go" />
+        <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" />
+        <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" />
+        <option value="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" />
+        <option value="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" />
+        <option value="$PROJECT_DIR$/trie/MapSum/MapSum_test.go" />
+        <option value="$PROJECT_DIR$/trie/MapSum/MapSum.go" />
       </list>
     </option>
   </component>
@@ -231,25 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_camelMatch in leetcode-go/trie/camelMatch">
-    <configuration name="go build numUniqueEmails.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" />
-      <package value="leetcode-go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build string.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/string/string.go" />
-      <package value="leetcode-go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestMapSum in leetcode-go/trie/MapSum">
     <configuration name="go build trie.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -257,6 +286,28 @@
       <filePath value="$PROJECT_DIR$/trie/trie/trie.go" />
       <package value="leetcode-go" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMagicDictionary_Search in leetcode-go/trie/MagicDictionary" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/trie/MagicDictionary" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/trie/MagicDictionary" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMagicDictionary_Search$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMapSum in leetcode-go/trie/MapSum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/trie/MapSum" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/trie/MapSum" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMapSum$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -270,57 +321,57 @@
       <pattern value="^Test_camelMatch$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_numUniqueEmails in leetcode-go/string/numUniqueEmails" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_replaceWords in leetcode-go/trie/replaceWords" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/string/numUniqueEmails" />
+      <working_directory value="$PROJECT_DIR$/trie/replaceWords" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="leetcode-go/string/numUniqueEmails" />
+      <package value="leetcode-go/trie/replaceWords" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_numUniqueEmails$" />
+      <pattern value="^Test_replaceWords$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMapSum in leetcode-go/trie/MapSum" />
+        <item itemvalue="Go Test.TestMagicDictionary_Search in leetcode-go/trie/MagicDictionary" />
+        <item itemvalue="Go Test.Test_replaceWords in leetcode-go/trie/replaceWords" />
         <item itemvalue="Go Test.Test_camelMatch in leetcode-go/trie/camelMatch" />
         <item itemvalue="Go Build.go build trie.go" />
-        <item itemvalue="Go Test.Test_numUniqueEmails in leetcode-go/string/numUniqueEmails" />
-        <item itemvalue="Go Build.go build numUniqueEmails.go" />
-        <item itemvalue="Go Build.go build string.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_numUniqueEmails_in_leetcode-go_string_numUniqueEmails - 2019.11.20 at 14h 24m 15s.xml">
-      <configuration name="Test_numUniqueEmails in leetcode-go/string/numUniqueEmails" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 54m 45s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 53m 01s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 55m 57s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 53m 36s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 56m 38s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 53m 58s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 56m 48s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 55m 15s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 57m 34s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 56m 03s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 58m 27s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 15h 59m 07s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 59m 01s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 16h 15m 52s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 59m 36s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 17h 02m 41s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 17h 00m 01s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_camelMatch_in_leetcode-go_trie_camelMatch - 2019.11.21 at 17h 02m 43s.xml">
-      <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 17h 00m 13s.xml">
+      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -332,7 +383,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,65 +521,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heap/frequencySort/frequencySort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding>
-            <element signature="e#23#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heap/kClosest/kClosest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="e#18#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heap/Twitter/Twitter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2405">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="e#17#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/ArrayQueue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heap/findKthLargest/findKthLargest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/unsafe/unsafe.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/ArrayQueue_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/CirsularQueue_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue/CircularQueue.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -766,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="66" column="1" lean-forward="true" selection-start-line="4" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -796,18 +781,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="228">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/FindKth.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="99">
+          <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="e#20#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/stretchr/testify@v1.4.0/assert/assertions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="332" column="5" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#16#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
