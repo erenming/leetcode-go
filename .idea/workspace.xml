@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/greedy/findContentChildren/findContentChildren.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci" beforeDir="false" afterPath="$PROJECT_DIR$/ci" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -62,9 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/heap/lastStoneWeight.go" />
-        <option value="$PROJECT_DIR$/heap/heap.go" />
-        <option value="$PROJECT_DIR$/heap/heapq_test.go" />
         <option value="$PROJECT_DIR$/heap/heapq.go" />
         <option value="$PROJECT_DIR$/heap/KthLargest.go" />
         <option value="$PROJECT_DIR$/heap/KthLargest/KthLargest.go" />
@@ -113,6 +138,9 @@
         <option value="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go" />
         <option value="$PROJECT_DIR$/greedy/findContentChildren/findContentChildren.go" />
         <option value="$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go" />
+        <option value="$PROJECT_DIR$/ci" />
+        <option value="$PROJECT_DIR$/greedy/isSubsequence/isSubsequence_test.go" />
+        <option value="$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go" />
       </list>
     </option>
   </component>
@@ -187,18 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_findContentChildren in leetcode-go/greedy/findContentChildren">
-    <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/trie/WordDictionary" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/trie/WordDictionary" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestWordDictionary_Search$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.Test_isSubsequence in leetcode-go/greedy/isSubsequence">
     <configuration name="Test_findContentChildren in leetcode-go/greedy/findContentChildren" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/greedy/findContentChildren" />
@@ -208,6 +225,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_findContentChildren$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/greedy/isSubsequence" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/greedy/isSubsequence" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_isSubsequence$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -245,36 +273,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_isSubsequence in leetcode-go/greedy/isSubsequence" />
         <item itemvalue="Go Test.Test_findContentChildren in leetcode-go/greedy/findContentChildren" />
         <item itemvalue="Go Test.Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" />
         <item itemvalue="Go Test.Test_lemonadeChange in leetcode-go/greedy/lemonadeChange" />
         <item itemvalue="Go Test.Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" />
-        <item itemvalue="Go Test.TestWordDictionary_Search in leetcode-go/trie/WordDictionary" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 04m 58s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 05m 13s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 06m 31s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 11m 34s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 11m 58s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 12m 22s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 12m 23s.xml">
-      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 14m 06s.xml">
       <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -283,6 +290,27 @@
     </history-entry>
     <history-entry file="Test_findContentChildren_in_leetcode-go_greedy_findContentChildren - 2019.11.26 at 16h 33m 32s.xml">
       <configuration name="Test_findContentChildren in leetcode-go/greedy/findContentChildren" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_findContentChildren_in_leetcode-go_greedy_findContentChildren - 2019.11.26 at 16h 34m 28s.xml">
+      <configuration name="Test_findContentChildren in leetcode-go/greedy/findContentChildren" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 50m 23s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 51m 31s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 51m 47s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 52m 50s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 53m 29s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_isSubsequence_in_leetcode-go_greedy_isSubsequence - 2019.11.26 at 16h 53m 47s.xml">
+      <configuration name="Test_isSubsequence in leetcode-go/greedy/isSubsequence" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -294,8 +322,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4088398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,6 +403,12 @@
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -428,34 +462,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrays/fib/fib_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/climbStairs/climbStairs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/fib/fib.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrays/sortedSquares/sortedSquares.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -776,6 +782,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -783,10 +810,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go">
+    <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="93">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>

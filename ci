@@ -2,4 +2,6 @@ pro=$1
 
 git add .
 git ci . -m "problem $1"
+git push
+
 
