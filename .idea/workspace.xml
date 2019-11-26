@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +22,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go">
+        <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go">
+        <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+            <state relative-caret-position="234">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/sort/sort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,10 +63,13 @@
       <find>head</find>
       <find>heap</find>
       <find>kmp</find>
+      <find>less</find>
+      <find>IntSlice</find>
     </findStrings>
     <replaceStrings>
       <replace>FindLastLessEqual</replace>
       <replace>header</replace>
+      <replace>NodeSlice</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -68,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/binaryTree/maximumDepth/maximumDepth.go" />
         <option value="$PROJECT_DIR$/binaryTree/invertTree/invertTree.go" />
         <option value="$PROJECT_DIR$/binaryTree/CousinsInBinaryTree/CousinsInBinaryTree.go" />
         <option value="$PROJECT_DIR$/binaryTree/RangeSumofBST/RangeSumofBST.go" />
@@ -100,7 +110,6 @@
         <option value="$PROJECT_DIR$/arrays/climbStairs/climbStairs.go" />
         <option value="$PROJECT_DIR$/string/lsd/lsd.go" />
         <option value="$PROJECT_DIR$/stacks/isValid.go" />
-        <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" />
         <option value="$PROJECT_DIR$/string/string.go" />
         <option value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails_test.go" />
         <option value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" />
@@ -119,6 +128,8 @@
         <option value="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" />
         <option value="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" />
         <option value="$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go" />
+        <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" />
+        <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go" />
       </list>
     </option>
   </component>
@@ -146,13 +157,18 @@
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="twoCitySchedCost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
               <item name="trie" type="462c0819:PsiDirectoryNode" />
-              <item name="WordDictionary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestWordDictionary_Search in leetcode-go/trie/WordDictionary">
+  <component name="RunManager" selected="Go Test.Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -207,17 +223,6 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="leetcode-go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMagicDictionary_Search in leetcode-go/trie/MagicDictionary" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/trie/MagicDictionary" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/trie/MagicDictionary" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMagicDictionary_Search$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMapSum in leetcode-go/trie/MapSum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -253,23 +258,28 @@
       <pattern value="^Test_topKFrequent$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/greedy/twoCitySchedCost" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/greedy/twoCitySchedCost" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_twoCitySchedCost$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" />
         <item itemvalue="Go Test.TestWordDictionary_Search in leetcode-go/trie/WordDictionary" />
         <item itemvalue="Go Test.Test_topKFrequent in leetcode-go/trie/topKFrequent" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestMapSum in leetcode-go/trie/MapSum" />
-        <item itemvalue="Go Test.TestMagicDictionary_Search in leetcode-go/trie/MagicDictionary" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 14m 04s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 16m 01s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 16m 15s.xml">
       <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -294,17 +304,22 @@
     <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 24m 17s.xml">
       <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 15h 19m 55s.xml">
+      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_twoCitySchedCost_in_leetcode-go_greedy_twoCitySchedCost - 2019.11.26 at 15h 19m 59s.xml">
+      <configuration name="Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4088398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,8 +327,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="310" height="616" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,12 +453,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrays/MoveZeroes/MoveZeroes.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/twoSum/twoSum.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrays/findDisappearedNumbers/findDisappearedNumbers.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -541,13 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="16" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -766,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -782,8 +778,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="140">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
