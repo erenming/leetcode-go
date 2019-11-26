@@ -1,9 +1,10 @@
 package matrixScore
 
+import "math"
+
 func matrixScore(A [][]int) int {
 	m := len(A)
 	n := len(A[0])
-
 	cols := make([]int, n)
 
 	// property 1, make row maximize
@@ -26,6 +27,18 @@ func matrixScore(A [][]int) int {
 	}
 
 	// sum
+	res := 0
+	for i := 0; i < m; i++ {
+		tmp := 0
+		for j := 0; j< n; j++ {
+			tmp += A[i][j] * Pow2(m-i-1)
+		}
+		res += tmp
+	}
+	return res
+}
+
+func Pow2(n	 int) int {
 
 }
 
