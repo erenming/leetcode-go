@@ -21,7 +21,7 @@ func TestWordDictionary_Search(t *testing.T) {
 		{"t-6", []string{"at", "and", "an", "add", "a"}, args{".at"}, false},
 		{"t-7", []string{"at", "and", "an", "add", "a"}, args{"."}, true},
 		{"t-8", []string{"at", "and", "an", "add", "a"}, args{"b."}, false},
-		{"t-9", []string{"at", "and", "an", "add", "a"}, args{"an"}, false},
+		{"t-9", []string{"at", "and", "an", "add", "a"}, args{"ad"}, false},
 
 
 	}

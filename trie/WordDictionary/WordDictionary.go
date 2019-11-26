@@ -7,7 +7,6 @@ type WordDictionary struct {
 type Node struct {
 	isEnd    bool
 	char     rune
-	word     string
 	children [26]*Node
 }
 
@@ -29,7 +28,6 @@ func (this *WordDictionary) AddWord(word string) {
 		node = node.children[c-'a']
 	}
 	node.isEnd = true
-	node.word = word
 }
 
 /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
@@ -38,9 +36,6 @@ func (this *WordDictionary) Search(word string) bool {
 }
 
 func match(word string, index int, node *Node) bool {
-	if node == nil {
-		return false
-	}
 	if index == len(word) {
 		return node.isEnd
 	}
