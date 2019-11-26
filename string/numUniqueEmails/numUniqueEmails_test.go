@@ -11,7 +11,7 @@ func Test_numUniqueEmails(t *testing.T) {
 		args args
 		want int
 	}{
-		{"t-1", args{[]string{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}}, 2},
+		{"t-1", args{[]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}}, 2},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

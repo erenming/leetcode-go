@@ -9,10 +9,10 @@ type DLinkedNode struct {
 
 type LRUCache struct {
 	Capacity int
-	Count int
-	Cache map[int]*DLinkedNode
-	Head *DLinkedNode
-	Tail *DLinkedNode
+	Count    int
+	Cache    map[int]*DLinkedNode
+	Head     *DLinkedNode
+	Tail     *DLinkedNode
 }
 
 func Constructor(capacity int) LRUCache {
@@ -43,12 +43,11 @@ func (this *LRUCache) moveToHead(node *DLinkedNode) {
 	this.AddNode(node)
 }
 
-func (this *LRUCache) popTail() (*DLinkedNode) {
+func (this *LRUCache) popTail() *DLinkedNode {
 	res := this.Tail.Prev
 	this.RemoveNode(res)
 	return res
 }
-
 
 func (this *LRUCache) Get(key int) int {
 	node, ok := this.Cache[key]
@@ -59,8 +58,7 @@ func (this *LRUCache) Get(key int) int {
 	return node.Value
 }
 
-
-func (this *LRUCache) Put(key int, value int)  {
+func (this *LRUCache) Put(key int, value int) {
 	existed, ok := this.Cache[key]
 	if !ok {
 		node := &DLinkedNode{key, value, nil, nil}
@@ -77,7 +75,6 @@ func (this *LRUCache) Put(key int, value int)  {
 		this.moveToHead(existed)
 	}
 }
-
 
 /**
  * Your LRUCache object will be instantiated and called as such:

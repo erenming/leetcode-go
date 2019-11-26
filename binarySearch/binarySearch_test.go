@@ -17,7 +17,7 @@ func TestFindFirstEqual(t *testing.T) {
 
 func TestFindLastEqual(t *testing.T) {
 	a := []int{1, 3, 5, 8, 8, 8, 9, 10}
-	if FindLastEqual(8, a	) != 5 {
+	if FindLastEqual(8, a) != 5 {
 		t.Fail()
 	}
 	if FindLastEqual(4, a) != -1 {
@@ -58,6 +58,6 @@ func TestFindLastLessEqual(t *testing.T) {
 }
 
 func TestSearchRange(t *testing.T) {
-	a := []int{5,7,7,8,8,10}
+	a := []int{5, 7, 7, 8, 8, 10}
 	fmt.Println(searchRange(a, 8))
 }

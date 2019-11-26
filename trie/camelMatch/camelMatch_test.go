@@ -15,8 +15,8 @@ func Test_camelMatch(t *testing.T) {
 		args args
 		want []bool
 	}{
-		{"t-1", args{queries:[]string{"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"}, pattern:"FB"}, []bool{true,false,true,true,false}},
-		{"t-2", args{queries:[]string{"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"}, pattern: "FoBa"}, []bool{true,false,true,false,false}},
+		{"t-1", args{queries: []string{"FooBar", "FooBarTest", "FootBall", "FrameBuffer", "ForceFeedBack"}, pattern: "FB"}, []bool{true, false, true, true, false}},
+		{"t-2", args{queries: []string{"FooBar", "FooBarTest", "FootBall", "FrameBuffer", "ForceFeedBack"}, pattern: "FoBa"}, []bool{true, false, true, false, false}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

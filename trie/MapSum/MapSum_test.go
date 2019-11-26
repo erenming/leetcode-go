@@ -12,4 +12,3 @@ func TestMapSum(t *testing.T) {
 	obj.Insert("app", 2)
 	assert.Equal(t, 5, obj.Sum("ap"))
 }
-

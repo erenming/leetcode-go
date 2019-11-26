@@ -3,7 +3,7 @@ package linkedList
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
 
-	for ; head != nil; {
+	for head != nil {
 		record := head.Next
 		head.Next = pre
 		pre = head

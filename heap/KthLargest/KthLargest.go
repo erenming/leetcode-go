@@ -63,11 +63,12 @@ func (this *KthLargest) Add(val int) int {
 }
 
 func main() {
-	obj := Constructor(3, []int{1, 7, 5, 2, 4});
-	param_1 := obj.Add(10);
+	obj := Constructor(3, []int{1, 7, 5, 2, 4})
+	param_1 := obj.Add(10)
 	fmt.Println(param_1)
 	fmt.Println(obj)
 }
+
 /**
  * Your KthLargest object will be instantiated and called as such:
  * obj := Constructor(k, nums);

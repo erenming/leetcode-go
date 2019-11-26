@@ -7,11 +7,11 @@ func FindLastEqual(value int, a []int) int {
 	for lo <= hi {
 		mid := lo + ((hi - lo) >> 1)
 		if value < a[mid] {
-			hi = mid-1
+			hi = mid - 1
 		} else if value > a[mid] {
 			lo = mid + 1
 		} else {
-			if (mid == len(a) - 1) || (a[mid+1] != value) {
+			if (mid == len(a)-1) || (a[mid+1] != value) {
 				return mid
 			} else {
 				lo = mid + 1

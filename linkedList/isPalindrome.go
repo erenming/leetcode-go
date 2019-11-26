@@ -3,7 +3,7 @@ package linkedList
 func isPalindrome(head *ListNode) bool {
 	fast, slow := head, head
 	// find middle
-	for ; fast != nil && fast.Next != nil; {
+	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		slow = slow.Next
 	}
@@ -13,7 +13,7 @@ func isPalindrome(head *ListNode) bool {
 
 	slow = reverseList(slow)
 	fast = head
-	for ; slow != nil; {
+	for slow != nil {
 		if slow.Val != fast.Val {
 			return false
 		}

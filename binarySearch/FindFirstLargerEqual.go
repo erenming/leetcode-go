@@ -10,10 +10,10 @@ func FindFirstLargerEqual(value int, a []int) int {
 			if (mid == 0) || (a[mid-1] < value) {
 				return mid
 			} else {
-				hi = mid-1
+				hi = mid - 1
 			}
 		} else {
-			lo = mid+1
+			lo = mid + 1
 		}
 	}
 	return -1

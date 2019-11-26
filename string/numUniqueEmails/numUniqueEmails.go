@@ -18,7 +18,7 @@ func numUniqueEmails(emails []string) int {
 			}
 		}
 	done:
-		res[local.String() + "@" + domain] = struct{}{}
+		res[local.String()+"@"+domain] = struct{}{}
 	}
 	return len(res)
 }

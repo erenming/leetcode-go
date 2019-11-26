@@ -9,11 +9,11 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	for i := 0; i < n+1; i++ {
 		fast = fast.Next
 	}
-	for ; fast != nil; {
+	for fast != nil {
 		slow = slow.Next
 		fast = fast.Next
 	}
 
-	slow.Next = slow.Next.Next  // delete node
+	slow.Next = slow.Next.Next // delete node
 	return start.Next
 }

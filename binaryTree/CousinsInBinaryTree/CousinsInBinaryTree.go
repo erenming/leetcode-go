@@ -8,7 +8,7 @@ type TreeNode struct {
 
 func isCousins(root *TreeNode, x int, y int) bool {
 	var (
-		queue []*TreeNode
+		queue   []*TreeNode
 		xParent *TreeNode
 		yParent *TreeNode
 	)
@@ -45,7 +45,7 @@ func isCousins(root *TreeNode, x int, y int) bool {
 		if xParent != nil && yParent != nil {
 			return xParent != yParent
 		}
-		if ((xParent != nil && yParent == nil) || (xParent == nil && yParent != nil)) {
+		if (xParent != nil && yParent == nil) || (xParent == nil && yParent != nil) {
 			return false
 		}
 	}

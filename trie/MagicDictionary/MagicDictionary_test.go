@@ -10,7 +10,6 @@ func createTrie(dict []string) *Trie {
 	return &trie
 }
 
-
 func TestMagicDictionary_Search(t *testing.T) {
 	trie1 := createTrie([]string{"hello", "leetcode"})
 	trie2 := createTrie([]string{"hello", "hallo", "leetcode"})

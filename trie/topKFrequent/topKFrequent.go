@@ -42,7 +42,7 @@ func updateWord(node *Node, res []string) {
 	if node == nil {
 		return
 	}
-	if _count > len(res) - 1 {
+	if _count > len(res)-1 {
 		return
 	}
 	if node.isEnd {

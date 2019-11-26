@@ -11,7 +11,7 @@ func twoCitySchedCost(costs [][]int) int {
 
 	res := 0
 	for i := 0; i < len(diff); i++ {
-		if i < len(diff) / 2 {
+		if i < len(diff)/2 {
 			res += costs[diff[i].index][0]
 		} else {
 			res += costs[diff[i].index][1]

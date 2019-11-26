@@ -22,8 +22,6 @@ func TestWordDictionary_Search(t *testing.T) {
 		{"t-7", []string{"at", "and", "an", "add", "a"}, args{"."}, true},
 		{"t-8", []string{"at", "and", "an", "add", "a"}, args{"b."}, false},
 		{"t-9", []string{"at", "and", "an", "add", "a"}, args{"ad"}, false},
-
-
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

@@ -13,7 +13,7 @@ func createLinkedList() *ListNode {
 			Next: &ListNode{
 				Val: 1,
 				Next: &ListNode{
-					Val: 3,
+					Val:  3,
 					Next: nil,
 				},
 			},

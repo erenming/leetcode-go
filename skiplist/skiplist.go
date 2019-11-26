@@ -143,7 +143,7 @@ func (sl *SkipList) String() string {
 	for i := sl.level - 1; i >= 0; i-- {
 		line := "header"
 		cur := sl.header.forwards[i]
-		for ; cur != nil; {
+		for cur != nil {
 			line += fmt.Sprintf(" -> %v", cur.v)
 			cur = cur.forwards[i]
 		}

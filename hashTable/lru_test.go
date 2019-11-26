@@ -20,5 +20,4 @@ func TestLRUCache(t *testing.T) {
 	assert.Equal(t, 4, l.Head.Next.Value)
 	assert.Equal(t, 3, l.Tail.Prev.Value)
 
-
 }

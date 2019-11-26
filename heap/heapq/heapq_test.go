@@ -3,7 +3,6 @@ package heapq_test
 import (
 	"leetcode-go/heap/heapq"
 	"testing"
-
 )
 
 func TestHeap(t *testing.T) {

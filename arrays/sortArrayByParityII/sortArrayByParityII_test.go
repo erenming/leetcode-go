@@ -14,7 +14,7 @@ func Test_sortArrayByParityII(t *testing.T) {
 		args args
 		want []int
 	}{
-		{"t-1", args{[]int{4,2,5,7}}, []int{4,5,2,7}},
+		{"t-1", args{[]int{4, 2, 5, 7}}, []int{4, 5, 2, 7}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

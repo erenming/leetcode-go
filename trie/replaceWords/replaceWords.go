@@ -74,4 +74,3 @@ func (this *Trie) ReplaceString(word string) (s string, matched bool) {
 	}
 	return res, node.isEnd
 }
-

@@ -8,7 +8,7 @@ func searchMatrix(matrix [][]int, target int) bool {
 	var value int
 	row := 0
 	col := len(matrix[0]) - 1
-	for ; row <= len(matrix)-1 && col >= 0; {
+	for row <= len(matrix)-1 && col >= 0 {
 		value = matrix[row][col]
 		if target > value {
 			row++

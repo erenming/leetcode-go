@@ -150,10 +150,10 @@ func (this *Twitter) Unfollow(followerId int, followeeId int) {
 }
 
 func main() {
-	obj := Constructor();
-	obj.PostTweet(1, 5);
-	obj.Unfollow(1, 1);
-	param_2 := obj.GetNewsFeed(1);
+	obj := Constructor()
+	obj.PostTweet(1, 5)
+	obj.Unfollow(1, 1)
+	param_2 := obj.GetNewsFeed(1)
 	fmt.Println(param_2)
 }
 

@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/MoveZeroes/MoveZeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/MoveZeroes/MoveZeroes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/majorityElement/majorityElement_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/majorityElement/majorityElement_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/maxSubArray/maxSubArray.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/maxSubArray/maxSubArray.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/sortArrayByParity/sortArrayByParity.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/sortArrayByParity/sortArrayByParity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch/FindFirstLargerEqual.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/FindFirstLargerEqual.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch/FindLastEqual.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/FindLastEqual.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch/binarySearch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/binarySearch_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch/findDuplicate.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/findDuplicate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch/searchMatrix.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/searchMatrix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/CousinsInBinaryTree/CousinsInBinaryTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/CousinsInBinaryTree/CousinsInBinaryTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/RangeSumofBST/RangeSumofBST.go" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/RangeSumofBST/RangeSumofBST.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/maximumDepth/maximumDepth.go" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/maximumDepth/maximumDepth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/mergeTwo/mergeTwo.go" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/mergeTwo/mergeTwo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/univaluedTree/univaluedTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/univaluedTree/univaluedTree.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashTable/lru.go" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable/lru.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashTable/lru_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable/lru_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/KthLargest/KthLargest.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/KthLargest/KthLargest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/Twitter/Twitter.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/Twitter/Twitter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/findKthLargest/findKthLargest.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/findKthLargest/findKthLargest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/heapq/heapq.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/heapq/heapq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/heapq/heapq_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/heapq/heapq_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/detectCycle.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/detectCycle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/hasCycle.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/hasCycle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/isPalindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/isPalindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/removeNthFromEnd.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/removeNthFromEnd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/reverseList.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/reverseList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/ArrayQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/ArrayQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/CircularQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/CircularQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/CirsularQueue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/CirsularQueue_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/longestUnivaluePath.go" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/longestUnivaluePath.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiplist/skiplist.go" beforeDir="false" afterPath="$PROJECT_DIR$/skiplist/skiplist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/bubbleSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/bubbleSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/insertSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/insertSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/sortList.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/sortList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/sorts_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/sorts_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stacks/stacks_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/stacks/stacks_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" beforeDir="false" afterPath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/MapSum/MapSum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/MapSum/MapSum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +66,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
+        <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+            <state relative-caret-position="345">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
+        <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go">
+        <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="111">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -42,8 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/sort/sort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+            <state relative-caret-position="173">
+              <caret line="306" column="5" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -79,10 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/binaryTree/invertTree/invertTree.go" />
-        <option value="$PROJECT_DIR$/binaryTree/CousinsInBinaryTree/CousinsInBinaryTree.go" />
-        <option value="$PROJECT_DIR$/binaryTree/RangeSumofBST/RangeSumofBST.go" />
-        <option value="$PROJECT_DIR$/binaryTree/SearchInBST/SearchInBST.go" />
         <option value="$PROJECT_DIR$/binaryTree/leafSimilar/leafSimilar.go" />
         <option value="$PROJECT_DIR$/binaryTree/trimBST/trimBST.go" />
         <option value="$PROJECT_DIR$/heap/lastStoneWeight.go" />
@@ -130,6 +188,10 @@
         <option value="$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go" />
         <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" />
         <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go" />
+        <option value="$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go" />
+        <option value="$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange_test.go" />
+        <option value="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations_test.go" />
+        <option value="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go" />
       </list>
     </option>
   </component>
@@ -163,12 +225,7 @@
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
               <item name="greedy" type="462c0819:PsiDirectoryNode" />
-              <item name="twoCitySchedCost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="largestSumAfterKNegations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
@@ -215,27 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="leetcode-go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMapSum in leetcode-go/trie/MapSum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/trie/MapSum" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/trie/MapSum" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMapSum$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations">
     <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/trie/WordDictionary" />
@@ -245,6 +282,28 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestWordDictionary_Search$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/greedy/largestSumAfterKNegations" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/greedy/largestSumAfterKNegations" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_largestSumAfterKNegations$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_lemonadeChange in leetcode-go/greedy/lemonadeChange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/greedy/lemonadeChange" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/greedy/lemonadeChange" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_lemonadeChange$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -271,55 +330,56 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" />
+        <item itemvalue="Go Test.Test_lemonadeChange in leetcode-go/greedy/lemonadeChange" />
         <item itemvalue="Go Test.Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" />
         <item itemvalue="Go Test.TestWordDictionary_Search in leetcode-go/trie/WordDictionary" />
         <item itemvalue="Go Test.Test_topKFrequent in leetcode-go/trie/topKFrequent" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestMapSum in leetcode-go/trie/MapSum" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 16m 15s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 04m 09s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 17m 32s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 04m 58s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 18m 36s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 05m 13s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 18m 52s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 06m 31s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 23m 24s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 11m 34s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 23m 35s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 11m 58s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 24m 11s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 12m 22s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 11h 24m 17s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 12m 23s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWordDictionary_Search_in_leetcode-go_trie_WordDictionary - 2019.11.26 at 15h 19m 55s.xml">
-      <configuration name="TestWordDictionary_Search in leetcode-go/trie/WordDictionary" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 14m 06s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_twoCitySchedCost_in_leetcode-go_greedy_twoCitySchedCost - 2019.11.26 at 15h 19m 59s.xml">
-      <configuration name="Test_twoCitySchedCost in leetcode-go/greedy/twoCitySchedCost" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_largestSumAfterKNegations_in_leetcode-go_greedy_largestSumAfterKNegations - 2019.11.26 at 16h 14m 37s.xml">
+      <configuration name="Test_largestSumAfterKNegations in leetcode-go/greedy/largestSumAfterKNegations" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -327,7 +387,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="310" height="616" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,30 +513,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arrays/findDisappearedNumbers/findDisappearedNumbers.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/sortArrayByParity/sortArrayByParity_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -783,20 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/sort/sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -806,8 +828,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="335">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="306" column="5" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>

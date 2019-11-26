@@ -3,14 +3,14 @@ package queue
 import "fmt"
 
 type ArrayQueue struct {
-	q []interface{}
+	q        []interface{}
 	capacity int
-	head int
-	tail int
+	head     int
+	tail     int
 }
 
 func NewArrayQueue(n int) *ArrayQueue {
-	return &ArrayQueue{make([]interface{}, n), n, 0, 0, }
+	return &ArrayQueue{make([]interface{}, n), n, 0, 0}
 }
 
 func (this *ArrayQueue) EnQueue(v interface{}) bool {
@@ -36,7 +36,7 @@ func (this *ArrayQueue) String() string {
 		return "empty enqueue"
 	}
 	result := "head"
-	for i := this.head; i <= this.tail - 1; i++ {
+	for i := this.head; i <= this.tail-1; i++ {
 		result += fmt.Sprintf("<-%+v", this.q[i])
 	}
 	result += "<-tail"

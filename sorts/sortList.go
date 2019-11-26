@@ -35,7 +35,7 @@ func merge(l1, l2 *ListNode) *ListNode {
 	head := &ListNode{}
 	mark := head
 
-	for  ;l1 != nil && l2 != nil; mark = mark.Next {
+	for ; l1 != nil && l2 != nil; mark = mark.Next {
 		if l1.Val <= l2.Val {
 			mark.Next = l1
 			l1 = l1.Next

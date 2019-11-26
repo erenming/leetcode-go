@@ -45,9 +45,9 @@ func (this *CircularQueue) String() string {
 	}
 	result := "head"
 	var i = this.head
-	for ; true; {
+	for true {
 		result += fmt.Sprintf("<-%+v", this.q[i])
-		i = (i+1) % this.capacity
+		i = (i + 1) % this.capacity
 		if i == this.tail {
 			break
 		}

@@ -29,7 +29,7 @@ func (h *Heap) bubbleDown(i int) {
 		}
 		j := j1
 		// j2 is right
-		if j2 := j1 + 1 ; j2 < n && h.array[j1] < h.array[j2] {
+		if j2 := j1 + 1; j2 < n && h.array[j1] < h.array[j2] {
 			j = j2
 		}
 		if h.array[i] < h.array[j] {
@@ -75,9 +75,9 @@ func (h *Heap) Push(item int) {
 
 func (h *Heap) String() string {
 	var s strings.Builder
-	for i := 0; i < len(h.array) - 1; i++ {
+	for i := 0; i < len(h.array)-1; i++ {
 		s.WriteString(fmt.Sprintf("%d-", h.array[i]))
 	}
-	s.WriteString(strconv.Itoa(h.array[len(h.array) - 1]))
+	s.WriteString(strconv.Itoa(h.array[len(h.array)-1]))
 	return s.String()
 }
