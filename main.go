@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"unsafe"
 )
 
 type x struct {
@@ -11,7 +10,7 @@ type x struct {
 }
 
 func main() {
-	a := x{"hello", 1.0}
+	a := make([]int, 12)
 	//fmt.Println(unsafe.Sizeof(string("hellosss")))
-	fmt.Println(unsafe.Alignof(a))
+	fmt.Println(len(a))
 }

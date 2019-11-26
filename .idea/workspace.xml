@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/MapSum/MapSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,98 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
-              <folding>
-                <element signature="e#20#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="e#16#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/go/pkg/mod/github.com/stretchr/testify@v1.4.0/assert/assertions.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="332" column="5" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="29">
+              <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hashMap/hashMap.go" />
-        <option value="$PROJECT_DIR$/binaryTree/mergeTwo.go" />
         <option value="$PROJECT_DIR$/binaryTree/mergeTwo/mergeTwo.go" />
         <option value="$PROJECT_DIR$/binaryTree/univaluedTree/univaluedTree.go" />
         <option value="$PROJECT_DIR$/binaryTree/maximumDepth/maximumDepth.go" />
@@ -164,7 +91,6 @@
         <option value="$PROJECT_DIR$/heap/Twitter/tHeap.go" />
         <option value="$PROJECT_DIR$/heap/Twitter/Twitter.go" />
         <option value="$PROJECT_DIR$/heap/findKthLargest/findKthLargest.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/skiplist/skiplist.go" />
         <option value="$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage_test.go" />
         <option value="$PROJECT_DIR$/arrays/flipAndInvertImage/flipAndInvertImage.go" />
@@ -183,7 +109,6 @@
         <option value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails_test.go" />
         <option value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" />
         <option value="$PROJECT_DIR$/trie/trie/trie_test.go" />
-        <option value="$PROJECT_DIR$/trie/trie/trie.go" />
         <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go" />
         <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch.go" />
         <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" />
@@ -192,6 +117,10 @@
         <option value="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" />
         <option value="$PROJECT_DIR$/trie/MapSum/MapSum_test.go" />
         <option value="$PROJECT_DIR$/trie/MapSum/MapSum.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/trie/trie/trie.go" />
+        <option value="$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go" />
+        <option value="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" />
       </list>
     </option>
   </component>
@@ -225,7 +154,7 @@
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
               <item name="trie" type="462c0819:PsiDirectoryNode" />
-              <item name="camelMatch" type="462c0819:PsiDirectoryNode" />
+              <item name="topKFrequent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +207,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMapSum in leetcode-go/trie/MapSum">
-    <configuration name="go build trie.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_topKFrequent in leetcode-go/trie/topKFrequent">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/trie/trie/trie.go" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <package value="leetcode-go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -310,17 +239,6 @@
       <pattern value="^TestMapSum$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_camelMatch in leetcode-go/trie/camelMatch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/trie/camelMatch" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/trie/camelMatch" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_camelMatch$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_replaceWords in leetcode-go/trie/replaceWords" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/trie/replaceWords" />
@@ -332,46 +250,57 @@
       <pattern value="^Test_replaceWords$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/trie/topKFrequent" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/trie/topKFrequent" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_topKFrequent$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_topKFrequent in leetcode-go/trie/topKFrequent" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestMapSum in leetcode-go/trie/MapSum" />
         <item itemvalue="Go Test.TestMagicDictionary_Search in leetcode-go/trie/MagicDictionary" />
         <item itemvalue="Go Test.Test_replaceWords in leetcode-go/trie/replaceWords" />
-        <item itemvalue="Go Test.Test_camelMatch in leetcode-go/trie/camelMatch" />
-        <item itemvalue="Go Build.go build trie.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 54m 45s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 10m 19s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 55m 57s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 10m 39s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 56m 38s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 10m 56s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 56m 48s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 11m 02s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 57m 34s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 12m 45s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 58m 27s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 12m 52s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 59m 01s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 13m 34s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 16h 59m 36s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 13m 37s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 17h 00m 01s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 14m 26s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMapSum_in_leetcode-go_trie_MapSum - 2019.11.22 at 17h 00m 13s.xml">
-      <configuration name="TestMapSum in leetcode-go/trie/MapSum" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_topKFrequent_in_leetcode-go_trie_topKFrequent - 2019.11.25 at 23h 15m 16s.xml">
+      <configuration name="Test_topKFrequent in leetcode-go/trie/topKFrequent" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -383,7 +312,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,11 +373,6 @@
           <url>file://$PROJECT_DIR$/binarySearch/binarySearch_test.go</url>
           <line>61</line>
           <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>14</line>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/heap/kClosest/kClosest.go</url>
@@ -521,36 +445,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/queue/CircularQueue.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binaryTree/CousinsInBinaryTree/CousinsInBinaryTree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skiplist/skiplist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-          <folding>
-            <element signature="e#18#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrays/majorityElement/majorityElement.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -758,24 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="807" selection-start-line="807" selection-end-line="807" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="424" column="5" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
         </state>
       </provider>
     </entry>
@@ -817,23 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="e#20#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/go/pkg/mod/github.com/stretchr/testify@v1.4.0/assert/assertions.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -853,8 +716,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#20#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="829" selection-start-line="829" selection-end-line="829" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/container/list/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
