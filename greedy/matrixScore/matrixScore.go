@@ -12,7 +12,7 @@ func matrixScore(A [][]int) int {
 		if A[i][0] == 0 {
 			flipRow(A, i, n)
 		}
-		for j := 0; j < m; j++ {
+		for j := 0; j < n; j++ {
 			if A[i][j] == 1 {
 				cols[j]++
 			}
@@ -30,17 +30,15 @@ func matrixScore(A [][]int) int {
 	res := 0
 	for i := 0; i < m; i++ {
 		tmp := 0
-		for j := 0; j< n; j++ {
-			tmp += A[i][j] * Pow2(m-i-1)
+		for j := 0; j < n; j++ {
+			tmp += A[i][j] *  int(math.Pow(2, float64(n-j-1)))
 		}
 		res += tmp
 	}
 	return res
 }
 
-func Pow2(n	 int) int {
 
-}
 
 func flipRow(m [][]int, row int, n int) {
 	for i := 0; i < n; i++ {
@@ -53,5 +51,11 @@ func flipRow(m [][]int, row int, n int) {
 }
 
 func flipCol(m [][]int, col int, n int) {
-
+	for i := 0; i<n; i++ {
+		if m[i][col] == 0 {
+			m[i][col] = 1
+		} else {
+			m[i][col] = 0
+		}
+	}
 }
