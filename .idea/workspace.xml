@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,22 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go">
+        <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#27#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute_test.go">
+        <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -89,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arrays/sortArrayByParityII/sortArrayByParityII.go" />
-        <option value="$PROJECT_DIR$/arrays/fib/fib_test.go" />
-        <option value="$PROJECT_DIR$/arrays/fib/fib.go" />
-        <option value="$PROJECT_DIR$/arrays/climbStairs/climbStairs.go" />
         <option value="$PROJECT_DIR$/string/lsd/lsd.go" />
         <option value="$PROJECT_DIR$/stacks/isValid.go" />
         <option value="$PROJECT_DIR$/string/string.go" />
@@ -140,6 +133,10 @@
         <option value="$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go" />
         <option value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute_test.go" />
         <option value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go" />
+        <option value="$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest_test.go" />
+        <option value="$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go" />
+        <option value="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go" />
+        <option value="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go" />
       </list>
     </option>
   </component>
@@ -168,6 +165,12 @@
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
               <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
+              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
+              <item name="kClosest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute">
+  <component name="RunManager" selected="Go Test.Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix">
     <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute" />
@@ -225,6 +228,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_diffWaysToCompute$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/divideAndConquer/findKthLargest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/divideAndConquer/findKthLargest" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_findKthLargest$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_kClosest in leetcode-go/divideAndConquer/kClosest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -238,17 +252,6 @@
       <pattern value="^Test_kClosest$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_majorityElement in leetcode-go/divideAndConquer/majorityElement" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/divideAndConquer/majorityElement" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/divideAndConquer/majorityElement" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_majorityElement$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_maxSubArray in leetcode-go/divideAndConquer/maxSubArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/divideAndConquer/maxSubArray" />
@@ -260,69 +263,68 @@
       <pattern value="^Test_maxSubArray$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_reconstructQueue in leetcode-go/greedy/reconstructQueue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/greedy/reconstructQueue" />
+      <working_directory value="$PROJECT_DIR$/divideAndConquer/searchMatrix" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="leetcode-go/greedy/reconstructQueue" />
+      <package value="leetcode-go/divideAndConquer/searchMatrix" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_reconstructQueue$" />
+      <pattern value="^Test_searchMatrix$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" />
+        <item itemvalue="Go Test.Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" />
         <item itemvalue="Go Test.Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" />
         <item itemvalue="Go Test.Test_kClosest in leetcode-go/divideAndConquer/kClosest" />
         <item itemvalue="Go Test.Test_maxSubArray in leetcode-go/divideAndConquer/maxSubArray" />
-        <item itemvalue="Go Test.Test_majorityElement in leetcode-go/divideAndConquer/majorityElement" />
-        <item itemvalue="Go Test.Test_reconstructQueue in leetcode-go/greedy/reconstructQueue" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 35m 03s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 39m 16s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 35m 32s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 49m 18s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 35m 42s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 51m 13s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 37m 07s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 51m 40s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 38m 54s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 56m 33s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 39m 20s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 01m 30s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 41m 17s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 01m 33s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 43m 31s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 03m 23s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 47m 51s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 04m 50s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_diffWaysToCompute_in_leetcode-go_divideAndConquer_diffWaysToCompute - 2019.11.28 at 13h 48m 34s.xml">
-      <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.12.02 at 09h 19m 58s.xml">
+      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4088398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +332,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="310" height="616" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
@@ -423,22 +425,27 @@
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go</url>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="161" />
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go</url>
+          <line>10</line>
           <properties />
-          <option name="timeStamp" value="165" />
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>matrix</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i-j</expression-string>
         <language-id>go</language-id>
@@ -487,34 +494,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trie/replaceWords/replaceWords.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/stretchr/testify@v1.4.0/assert/assertions.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="332" column="5" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trie/MapSum/MapSum_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -584,13 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="1337" selection-start-line="1337" selection-end-line="1337" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="802" selection-start-line="802" selection-end-line="802" />
         </state>
       </provider>
     </entry>
@@ -821,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greedy/reconstructQueue/reconstructQueue.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -842,20 +807,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#27#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="173">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go">
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#27#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="65">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="802" selection-start-line="802" selection-end-line="802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
