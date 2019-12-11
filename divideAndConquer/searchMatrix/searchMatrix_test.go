@@ -17,9 +17,6 @@ func Test_searchMatrix(t *testing.T) {
 		{"t-3", args{[][]int{{-1, 3}}, 3}, true},
 		{"t-4", args{[][]int{{1, 3, 5}}, -1}, false},
 		{"t-5", args{[][]int{{1, 3, 5}}, 1}, true},
-
-
-
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
