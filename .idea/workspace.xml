@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation.go">
+        <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-end-line="57" />
+            <state relative-caret-position="146">
+              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation_test.go">
+        <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="236">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -87,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/string/numUniqueEmails/numUniqueEmails.go" />
-        <option value="$PROJECT_DIR$/trie/trie/trie_test.go" />
-        <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch_test.go" />
         <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch.go" />
         <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" />
         <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" />
@@ -138,13 +134,16 @@
         <option value="$PROJECT_DIR$/backtracking/letterCasePermutation_test.go" />
         <option value="$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation.go" />
         <option value="$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation_test.go" />
+        <option value="$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities.go" />
+        <option value="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go" />
+        <option value="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="816" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,8 +169,7 @@
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-              <item name="letterCasePermutation" type="462c0819:PsiDirectoryNode" />
+              <item name="stacks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
@@ -200,11 +198,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backtracking/letterCasePermutation" />
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
       <recent name="$PROJECT_DIR$/arrays/MoveZeroes" />
       <recent name="$PROJECT_DIR$/arrays/maxSubArray" />
       <recent name="$PROJECT_DIR$/arrays/majorityElement" />
-      <recent name="$PROJECT_DIR$/arrays/findDisappearedNumbers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,18 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation">
-    <configuration name="Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/divideAndConquer/diffWaysToCompute" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_diffWaysToCompute$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes">
     <configuration name="Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/divideAndConquer/findKthLargest" />
@@ -264,6 +251,17 @@
       <pattern value="^Test_letterCasePermutation$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/linkedList/nextLargerNodes" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/linkedList/nextLargerNodes" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_nextLargerNodes$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/divideAndConquer/searchMatrix" />
@@ -277,63 +275,64 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" />
         <item itemvalue="Go Test.Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" />
         <item itemvalue="Go Test.Test_letterCasePermutation in leetcode-go/backtracking" />
         <item itemvalue="Go Test.Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" />
         <item itemvalue="Go Test.Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" />
-        <item itemvalue="Go Test.Test_diffWaysToCompute in leetcode-go/divideAndConquer/diffWaysToCompute" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 39m 16s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_letterCasePermutation_in_leetcode-go_backtracking_letterCasePermutation - 2019.12.11 at 15h 38m 08s.xml">
+      <configuration name="Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 49m 18s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 11h 15m 34s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 51m 13s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 13h 57m 44s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 51m 40s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 13h 58m 17s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 16h 56m 33s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 01m 34s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 01m 30s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 21s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 01m 33s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 29s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 03m 23s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 38s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.11.29 at 17h 04m 50s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 53s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_searchMatrix_in_leetcode-go_divideAndConquer_searchMatrix - 2019.12.02 at 09h 19m 58s.xml">
-      <configuration name="Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 03m 02s.xml">
+      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4088398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40858725" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34072024" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -487,54 +486,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trie/camelMatch/camelMatch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="65" selection-start-line="65" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="e#20#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="521" selection-start-line="521" selection-end-line="521" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/container/list/list.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -609,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -842,6 +786,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ci">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -853,6 +804,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" lean-forward="true" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stacks/MinStack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
         </state>
       </provider>
     </entry>
