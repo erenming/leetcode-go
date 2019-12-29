@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stacks/dailyTemperatures/dailyTemperatures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stacks/dailyTemperatures/dailyTemperatures_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/heapq/heapq.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/heapq/heapq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/heapq/heapq_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/heapq/heapq_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/ArrayQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/queue/ArrayQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/ArrayQueue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/queue/ArrayQueue_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/CircularQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/queue/CircularQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/CirsularQueue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/library/queue/CirsularQueue_test.go" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,28 +39,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,103 +69,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/trie/camelMatch/camelMatch.go" />
-        <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords_test.go" />
-        <option value="$PROJECT_DIR$/trie/replaceWords/replaceWords.go" />
-        <option value="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary_test.go" />
-        <option value="$PROJECT_DIR$/trie/MagicDictionary/MagicDictionary.go" />
-        <option value="$PROJECT_DIR$/trie/MapSum/MapSum_test.go" />
-        <option value="$PROJECT_DIR$/trie/MapSum/MapSum.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/trie/trie/trie.go" />
-        <option value="$PROJECT_DIR$/trie/topKFrequent/topKFrequent_test.go" />
-        <option value="$PROJECT_DIR$/trie/topKFrequent/topKFrequent.go" />
-        <option value="$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go" />
-        <option value="$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go" />
-        <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go" />
-        <option value="$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go" />
-        <option value="$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go" />
-        <option value="$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange_test.go" />
-        <option value="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations_test.go" />
-        <option value="$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go" />
-        <option value="$PROJECT_DIR$/greedy/findContentChildren/findContentChildren.go" />
-        <option value="$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go" />
-        <option value="$PROJECT_DIR$/greedy/isSubsequence/isSubsequence_test.go" />
-        <option value="$PROJECT_DIR$/ci" />
-        <option value="$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go" />
-        <option value="$PROJECT_DIR$/greedy/partitionLabels/partitionLabels.go" />
-        <option value="$PROJECT_DIR$/greedy/partitionLabels/partitionLabels_test.go" />
-        <option value="$PROJECT_DIR$/greedy/minAddToMakeValid/minAddToMakeValid_test.go" />
-        <option value="$PROJECT_DIR$/greedy/minAddToMakeValid/minAddToMakeValid.go" />
-        <option value="$PROJECT_DIR$/greedy/matrixScore/matrixScore_test.go" />
-        <option value="$PROJECT_DIR$/greedy/matrixScore/matrixScore.go" />
-        <option value="$PROJECT_DIR$/greedy/reconstructQueue/reconstructQueue_test.go" />
-        <option value="$PROJECT_DIR$/greedy/reconstructQueue/reconstructQueue.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/majorityElement/majorityElement_test.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/majorityElement/majorityElement.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/maxSubArray/maxSubArray.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/maxSubArray/maxSubArray_test.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/kClosest/kClosest_test.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute_test.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest_test.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go" />
-        <option value="$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go" />
-        <option value="$PROJECT_DIR$/backtracking/letterCasePermutation.go" />
-        <option value="$PROJECT_DIR$/backtracking/letterCasePermutation_test.go" />
-        <option value="$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation.go" />
-        <option value="$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation_test.go" />
-        <option value="$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities.go" />
-        <option value="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go" />
-        <option value="$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
   </component>
+  <component name="ProjectId" id="1VauoULrugeBOWpuSPgwwutA5f4" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-go" type="462c0819:PsiDirectoryNode" />
-              <item name="stacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -188,6 +90,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -198,35 +101,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library" />
       <recent name="$PROJECT_DIR$/backtracking/letterCasePermutation" />
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
       <recent name="$PROJECT_DIR$/arrays/MoveZeroes" />
       <recent name="$PROJECT_DIR$/arrays/maxSubArray" />
-      <recent name="$PROJECT_DIR$/arrays/majorityElement" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Test.Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes">
-    <configuration name="Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_dailyTemperatures in leetcode-go/stacks/dailyTemperatures">
+    <configuration name="Test_dailyTemperatures in leetcode-go/stacks/dailyTemperatures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/divideAndConquer/findKthLargest" />
+      <working_directory value="$PROJECT_DIR$/stacks/dailyTemperatures" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="leetcode-go/divideAndConquer/findKthLargest" />
+      <package value="leetcode-go/stacks/dailyTemperatures" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_findKthLargest$" />
+      <pattern value="^Test_dailyTemperatures$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_letterCasePermutation in leetcode-go/backtracking" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -275,93 +166,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_dailyTemperatures in leetcode-go/stacks/dailyTemperatures" />
         <item itemvalue="Go Test.Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" />
         <item itemvalue="Go Test.Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" />
         <item itemvalue="Go Test.Test_letterCasePermutation in leetcode-go/backtracking" />
         <item itemvalue="Go Test.Test_searchMatrix in leetcode-go/divideAndConquer/searchMatrix" />
-        <item itemvalue="Go Test.Test_findKthLargest in leetcode-go/divideAndConquer/findKthLargest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="TestHistory">
-    <history-entry file="Test_letterCasePermutation_in_leetcode-go_backtracking_letterCasePermutation - 2019.12.11 at 15h 38m 08s.xml">
-      <configuration name="Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 11h 15m 34s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 13h 57m 44s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 13h 58m 17s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 01m 34s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 21s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 29s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 38s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 02m 53s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_nextLargerNodes_in_leetcode-go_linkedList_nextLargerNodes - 2019.12.26 at 14h 03m 02s.xml">
-      <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40858725" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34072024" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info anchor="right" x="0" y="0" width="310" height="616" id="Documentation" order="4" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -369,6 +192,40 @@
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.io/</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1577602366967">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577602366967" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1577602366966">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577602366966" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1577602366966">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577602366966" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1577602366967">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577602366967" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1577602339583">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577602339583" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1577602339582">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1577602339582" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1577602339582">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1577602339582" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1577602339582">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1577602339582" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,6 +285,11 @@
           <line>10</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/stacks/dailyTemperatures/dailyTemperatures.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -484,370 +346,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1337" selection-start-line="1337" selection-end-line="1337" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/WordDictionary/WordDictionary.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trie/trie/trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/sort/sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="306" column="5" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/largestSumAfterKNegations/largestSumAfterKNegations_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/lemonadeChange/lemonadeChange.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/findContentChildren/findContentChildren_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/minAddToMakeValid/minAddToMakeValid_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/partitionLabels/partitionLabels_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/math/pow10.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/math/pow.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/matrixScore/matrixScore.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/matrixScore/matrixScore_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/isSubsequence/isSubsequence.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/minAddToMakeValid/minAddToMakeValid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/partitionLabels/partitionLabels.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/twoCitySchedCost/twoCitySchedCost.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="22" selection-start-line="22" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/reconstructQueue/reconstructQueue_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="122" selection-start-line="16" selection-start-column="122" selection-end-line="16" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/math/const.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/maxSubArray/maxSubArray_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#21#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/maxSubArray/maxSubArray.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" lean-forward="true" selection-start-line="2" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/majorityElement/majorityElement_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/majorityElement/majorityElement.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/QuickSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="16" selection-start-line="16" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/kClosest/kClosest_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedy/reconstructQueue/reconstructQueue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/diffWaysToCompute/diffWaysToCompute_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/kClosest/kClosest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="802" selection-start-line="802" selection-end-line="802" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/findKthLargest/findKthLargest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divideAndConquer/searchMatrix/searchMatrix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/strings/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="553" column="5" selection-start-line="553" selection-start-column="5" selection-end-line="553" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/letterCasePermutation/letterCasePermutation.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stacks/MinStack.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList/nextLargerNodes/nextLargerNodes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
