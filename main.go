@@ -9,8 +9,12 @@ type x struct {
 	a float64
 }
 
+func a(val int) {
+	for i := 0; i<3;i++ {
+		fmt.Println(val+1)
+	}
+}
+
 func main() {
-	a := make([]int, 12)
-	//fmt.Println(unsafe.Sizeof(string("hellosss")))
-	fmt.Println(len(a))
+	a(1)
 }

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtracking/combine/combine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtracking/numTilePossibilities/numTilePossibilities_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stacks/nextGreaterElement2/nextGreaterElement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stacks/nextGreaterElement2/nextGreaterElement_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/combine/combine_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtracking/combine/combine.go" beforeDir="false" afterPath="$PROJECT_DIR$/backtracking/combine/combine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,27 @@
       <recent name="$PROJECT_DIR$/arrays/maxSubArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_numTilePossibilities in leetcode-go/backtracking/numTilePossibilities">
+  <component name="RunManager" selected="Go Test.Test_combine in leetcode-go/backtracking/combine">
+    <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="leetcode-go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_combine in leetcode-go/backtracking/combine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/backtracking/combine" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/backtracking/combine" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_combine$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_dailyTemperatures in leetcode-go/stacks/dailyTemperatures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/stacks/dailyTemperatures" />
@@ -115,17 +133,6 @@
       <pattern value="^Test_dailyTemperatures$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/backtracking/letterCasePermutation" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/backtracking/letterCasePermutation" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_letterCasePermutation$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_nextGreaterElements in leetcode-go/stacks/nextGreaterElement2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/stacks/nextGreaterElement2" />
@@ -135,17 +142,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_nextGreaterElements$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/linkedList/nextLargerNodes" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/linkedList/nextLargerNodes" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_nextLargerNodes$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_numTilePossibilities in leetcode-go/backtracking/numTilePossibilities" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_combine in leetcode-go/backtracking/combine" />
+        <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_numTilePossibilities in leetcode-go/backtracking/numTilePossibilities" />
         <item itemvalue="Go Test.Test_nextGreaterElements in leetcode-go/stacks/nextGreaterElement2" />
         <item itemvalue="Go Test.Test_dailyTemperatures in leetcode-go/stacks/dailyTemperatures" />
-        <item itemvalue="Go Test.Test_nextLargerNodes in leetcode-go/linkedList/nextLargerNodes" />
-        <item itemvalue="Go Test.Test_letterCasePermutation in leetcode-go/backtracking/letterCasePermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -193,38 +189,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1577670120394" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1577711419169">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1577716574223">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577711419169" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1577711419168">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577716574223" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1577716574221">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577711419168" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1577711419166">
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577716574221" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1577716574220">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577711419166" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1577711419168">
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577716574220" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1577716574222">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577711419168" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1577709455872">
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577716574222" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1577716574225">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577709455872" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1577709455871">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577716574225" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1577716574224">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1577709455871" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1577709455870">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1577716574224" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1577716574224">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1577709455870" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1577709455871">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1577716574224" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1577716574225">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1577709455871" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1577716574225" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1577711410781">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -288,7 +284,17 @@
           <line>10</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/backtracking/combine/combine.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="*(*&quot;[]int&quot;)(824634178888)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
