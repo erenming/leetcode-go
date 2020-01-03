@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtracking/permute/permute.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtracking/permute/permute_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/generateParenthesis/generateParenthesis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/generateParenthesis/generateParenthesis_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/subsets/subsets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/subsets/subsets_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,32 +41,9 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>FindFirstLargerEqual</find>
-      <find>head</find>
-      <find>heap</find>
-      <find>kmp</find>
-      <find>less</find>
-      <find>IntSlice</find>
-      <find>res</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>FindLastLessEqual</replace>
-      <replace>header</replace>
-      <replace>NodeSlice</replace>
-      <replace>source</replace>
-      <replace>source`</replace>
-    </replaceStrings>
-  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="814" />
   </component>
   <component name="ProjectId" id="1VauoULrugeBOWpuSPgwwutA5f4" />
   <component name="ProjectLevelVcsManager">
@@ -101,7 +79,7 @@
       <recent name="$PROJECT_DIR$/arrays/maxSubArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_permute in leetcode-go/backtracking/permute">
+  <component name="RunManager" selected="Go Test.Test_subsets in leetcode-go/backtracking/subsets">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -122,26 +100,15 @@
       <pattern value="^Test_combine$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_nextGreaterElements in leetcode-go/stacks/nextGreaterElement2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_generateParenthesis in leetcode-go/backtracking/generateParenthesis" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/stacks/nextGreaterElement2" />
+      <working_directory value="$PROJECT_DIR$/backtracking/generateParenthesis" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="leetcode-go/stacks/nextGreaterElement2" />
+      <package value="leetcode-go/backtracking/generateParenthesis" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_nextGreaterElements$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_numTilePossibilities in leetcode-go/backtracking/numTilePossibilities" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/backtracking/numTilePossibilities" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/backtracking/numTilePossibilities" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_numTilePossibilities$" />
+      <pattern value="^Test_generateParenthesis$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_permute in leetcode-go/backtracking/permute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -155,13 +122,24 @@
       <pattern value="^Test_permute$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_subsets in leetcode-go/backtracking/subsets" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/backtracking/subsets" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/backtracking/subsets" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_subsets$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_subsets in leetcode-go/backtracking/subsets" />
+        <item itemvalue="Go Test.Test_generateParenthesis in leetcode-go/backtracking/generateParenthesis" />
         <item itemvalue="Go Test.Test_permute in leetcode-go/backtracking/permute" />
         <item itemvalue="Go Test.Test_combine in leetcode-go/backtracking/combine" />
         <item itemvalue="Go Build.go build leetcode-go" />
-        <item itemvalue="Go Test.Test_numTilePossibilities in leetcode-go/backtracking/numTilePossibilities" />
-        <item itemvalue="Go Test.Test_nextGreaterElements in leetcode-go/stacks/nextGreaterElement2" />
       </list>
     </recent_temporary>
   </component>
@@ -189,42 +167,46 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1577670120394" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1577756029053">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1578044498866">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577756029053" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1577756029051">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578044498866" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1578044498865">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577756029051" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1577756029050">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578044498865" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1578044498865">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577756029050" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1577756029052">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578044498865" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1578044498866">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577756029052" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1577720595163">
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578044498866" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578043642529">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577720595163" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1577720595162">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578043642529" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578043642529">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1577720595162" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1577720595162">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578043642529" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578043642528">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1577720595162" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1577720595163">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578043642528" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578043642529">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1577720595163" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578043642529" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1577711410781">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="229" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1577711410781" />
+    <state x="386" y="193" width="667" height="486" key="find.popup" timestamp="1577773715364">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="386" y="193" width="667" height="486" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1577773715364" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
