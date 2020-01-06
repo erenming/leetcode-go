@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/twoSum/twoSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/twoSum/twoSum_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/longestPalindrome/longestPalindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/longestPalindrome/longestPalindrome_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/findLengthOfLCIS/findLengthOfLCIS.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/findLengthOfLCIS/findLengthOfLCIS_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/findNumberOfLIS/findNumberOfLIS.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,18 @@
       <recent name="$PROJECT_DIR$/arrays/MoveZeroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_longestPalindrome in leetcode-go/dp/longestPalindrome">
+  <component name="RunManager" selected="Go Test.Test_findLengthOfLCIS in leetcode-go/dp/findLengthOfLCIS">
+    <configuration name="Test_findLengthOfLCIS in leetcode-go/dp/findLengthOfLCIS" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/dp/findLengthOfLCIS" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/dp/findLengthOfLCIS" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_findLengthOfLCIS$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_generateParenthesis in leetcode-go/backtracking/generateParenthesis" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/backtracking/generateParenthesis" />
@@ -100,17 +110,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_longestPalindrome$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_permute in leetcode-go/backtracking/permute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/backtracking/permute" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/backtracking/permute" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_permute$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_subsets in leetcode-go/backtracking/subsets" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_findLengthOfLCIS in leetcode-go/dp/findLengthOfLCIS" />
         <item itemvalue="Go Test.Test_longestPalindrome in leetcode-go/dp/longestPalindrome" />
         <item itemvalue="Go Test.Test_twoSum in leetcode-go/alibaba/twoSum" />
         <item itemvalue="Go Test.Test_subsets in leetcode-go/backtracking/subsets" />
         <item itemvalue="Go Test.Test_generateParenthesis in leetcode-go/backtracking/generateParenthesis" />
-        <item itemvalue="Go Test.Test_permute in leetcode-go/backtracking/permute" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +168,22 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1577670120394" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1578292405115">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1578295081403">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578292405115" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1578292405114">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578295081403" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1578295081402">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578292405114" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1578292405113">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578295081402" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1578295081401">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578292405113" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1578292405115">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578295081401" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1578295081403">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578292405115" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578295081403" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578280825856">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
