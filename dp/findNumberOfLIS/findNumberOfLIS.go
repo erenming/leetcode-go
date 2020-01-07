@@ -1,25 +1,39 @@
 package findNumberOfLIS
 
-import (
-	"math"
-)
-
 func findNumberOfLIS(nums []int) int {
-	n, maxlen := len(nums), 0
-	_cnt := make([]int, n)
-	_len := make([]int, n)
-
-	for i := n - 1; i >= 0; i-- {
-		maxlen = int(math.Max(float64(maxlen), float64(getLength(nums, i))))
+	n := len(nums)
+	_cnt, _len := make([]int, n), make([]int, n)
+	for i := 0; i < n; i++ {
+		_cnt[i] = 1
+		_len[i] = 1
 	}
 
+	for i := 0; i < n; i++ {
+		for j := 0; j < i; j++ {
+			if nums[j] < nums[i] {
+				if _len[j]+1 > _len[i] {
+					_len[i] = _len[j] + 1
+					_cnt[i] = _cnt[j]
+				} else if _len[j]+1 == _len[i] {
+					_cnt[i] += _cnt[j]
+				}
+			}
+		}
+	}
 
-}
+	maxLen := 0
+	for _, v := range _len {
+		if v > maxLen {
+			maxLen = v
+		}
+	}
 
-func getLength(nums []int, idx int) int {
+	res := 0
+	for i, v := range _len {
+		if v == maxLen {
+			res += _cnt[i]
+		}
+	}
 
-}
-
-func getCount(nums []int, idx int) int {
-
+	return res
 }
