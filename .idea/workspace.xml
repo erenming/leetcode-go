@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/addTwoNumbers/addTwoNumbers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/crawl/crawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode-go.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/alibaba/lengthOfLongestSubstringTwoDistinct/lengthOfLongestSubstringTwoDistinct.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/lengthOfLongestSubstringTwoDistinct/lengthOfLongestSubstringTwoDistinct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/alibaba/lengthOfLongestSubstringTwoDistinct/lengthOfLongestSubstringTwoDistinct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/lengthOfLongestSubstringTwoDistinct/lengthOfLongestSubstringTwoDistinct_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,50 +168,50 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1577670120394" />
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578470974922">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578471417021">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578470974922" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578470974920">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578471417021">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578470974920" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578470974919">
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578471417020">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578470974919" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578470974921">
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578471417020" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578471417021">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578470974921" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578470975043">
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578471417023">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578470975043" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578470975039">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578471417023" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578471417022">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578470975039" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578470975038">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578471417022" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578471417022">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578470975038" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578470975040">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578471417022" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578471417023">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578470975040" />
-    <state x="229" y="75" key="SettingsEditor" timestamp="1578311071503">
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578471417023" />
+    <state x="229" y="75" key="SettingsEditor" timestamp="1578471629418">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="229" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1578311071503" />
+    <state x="229" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1578471629418" />
     <state x="386" y="193" width="667" height="486" key="find.popup" timestamp="1577773715364">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="386" y="193" width="667" height="486" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1577773715364" />
-    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup" timestamp="1578299054188">
+    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup" timestamp="1578487108088">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1578299054188" />
+    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1578487108088" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
