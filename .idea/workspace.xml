@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/crawl/crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode-go.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/crawl/crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/crawl/crawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +72,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/company/alibaba" />
       <recent name="$PROJECT_DIR$/company" />
       <recent name="$PROJECT_DIR$/library" />
       <recent name="$PROJECT_DIR$/backtracking/letterCasePermutation" />
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
-      <recent name="$PROJECT_DIR$/arrays/MoveZeroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_addTwoNumbers in leetcode-go/company/alibaba/addTwoNumbers">
+  <component name="RunManager" selected="Go Test.Test_longestPalindrome in leetcode-go/company/alibaba/longestPalindrome">
+    <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="leetcode-go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_addTwoNumbers in leetcode-go/company/alibaba/addTwoNumbers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/company/alibaba/addTwoNumbers" />
@@ -88,28 +98,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_addTwoNumbers$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_findNumberOfLIS in leetcode-go/dp/findNumberOfLIS" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/dp/findNumberOfLIS" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/dp/findNumberOfLIS" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_findNumberOfLIS$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_lengthOfLIS in leetcode-go/dp/lengthOfLIS" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/dp/lengthOfLIS" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/dp/lengthOfLIS" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_lengthOfLIS$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_lengthOfLongestSubstring in leetcode-go/company/alibaba/lengthOfLongestSubstring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,13 +122,24 @@
       <pattern value="^Test_lengthOfLongestSubstringTwoDistinct$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_longestPalindrome in leetcode-go/company/alibaba/longestPalindrome" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/company/alibaba/longestPalindrome" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/company/alibaba/longestPalindrome" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_longestPalindrome$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_longestPalindrome in leetcode-go/company/alibaba/longestPalindrome" />
+        <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_addTwoNumbers in leetcode-go/company/alibaba/addTwoNumbers" />
         <item itemvalue="Go Test.Test_lengthOfLongestSubstringTwoDistinct in leetcode-go/company/alibaba/lengthOfLongestSubstringTwoDistinct" />
         <item itemvalue="Go Test.Test_lengthOfLongestSubstring in leetcode-go/company/alibaba/lengthOfLongestSubstring" />
-        <item itemvalue="Go Test.Test_findNumberOfLIS in leetcode-go/dp/findNumberOfLIS" />
-        <item itemvalue="Go Test.Test_lengthOfLIS in leetcode-go/dp/lengthOfLIS" />
       </list>
     </recent_temporary>
   </component>
@@ -164,42 +163,42 @@
     <proxy>https://goproxy.io/</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="483" y="146" key="#xdebugger.evaluate" timestamp="1577670120394">
+    <state x="483" y="146" key="#xdebugger.evaluate" timestamp="1578492350761">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1577670120394" />
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578471417021">
+    <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1578492350761" />
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578492588815">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578471417021">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578492588815" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578492588812">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578471417020">
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578492588812" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578492588811">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578471417020" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578471417021">
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578492588811" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578492588814">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578471417021" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578471417023">
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578492588814" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578492588819">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578471417023" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578471417022">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578492588819" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578492588818">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578471417022" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578471417022">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578492588818" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578492588817">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578471417022" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578471417023">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578492588817" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578492588819">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578471417023" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578492588819" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1578471629418">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -290,6 +289,11 @@
           <url>file://$PROJECT_DIR$/company/alibaba/addTwoNumbers/addTwoNumbers.go</url>
           <line>11</line>
           <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

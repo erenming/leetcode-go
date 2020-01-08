@@ -16,5 +16,5 @@ func a(val int) {
 }
 
 func main() {
-	a(1)
+	fmt.Println(string([]rune("你好")[0]))
 }
