@@ -18,9 +18,14 @@ func lengthOfLongestSubstringTwoDistinct(s string) int {
 			j++
 		}
 		if len(hs) == 3 {
-			tmp := hs[source[i]]
-			delete(hs, source[i])
-			i = tmp + 1
+			leftMost := math.MaxInt64
+			for _, v := range hs {
+				if v < leftMost {
+					leftMost = v
+				}
+			}
+			delete(hs, source[leftMost])
+			i = leftMost+1
 		}
 		res = int(math.Max(float64(j-i), float64(res)))
 	}
