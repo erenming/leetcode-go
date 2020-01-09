@@ -13,7 +13,7 @@ func reverse(x int) int {
 		if (res > math.MaxInt32/10) || (res == math.MaxInt32/10 && pop > 7) {
 			return 0
 		}
-		// 最大的32位整数的十进制表示：2147483647
+		// 最小的32位整数的十进制表示：-2147483648
 		if (res < math.MinInt32/10) || (res == math.MinInt32/10 && pop > 8) {
 			return 0
 		}
