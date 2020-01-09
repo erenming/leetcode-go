@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/reverse/reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/reverseList/reverseList.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/crawl/crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/crawl/crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,22 +165,22 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1578492350761" />
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578492588815">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1578493008045">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578492588815" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578492588812">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578493008045" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1578493008044">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578492588812" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578492588811">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578493008044" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1578493008043">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578492588811" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578492588814">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578493008043" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1578493008044">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578492588814" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578493008044" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578492588819">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -289,11 +287,6 @@
           <url>file://$PROJECT_DIR$/company/alibaba/addTwoNumbers/addTwoNumbers.go</url>
           <line>11</line>
           <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/company/alibaba/longestPalindrome/longestPalindrome.go</url>
-          <line>15</line>
-          <option name="timeStamp" value="214" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
