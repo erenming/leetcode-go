@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 type x struct {
@@ -16,5 +17,6 @@ func a(val int) {
 }
 
 func main() {
-	fmt.Println(string([]rune("你好")[0]))
+	fmt.Println(math.MinInt64)
+	fmt.Println(math.MinInt64 / 10)
 }
