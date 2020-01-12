@@ -14,5 +14,6 @@ class Solution:
                 continue
         return h[0]
 
+
 if __name__ == '__main__':
-    Solution().findKthLargest([3,2,1,5,6,4], 2)
+    Solution().findKthLargest([3, 2, 1, 5, 6, 4], 2)
