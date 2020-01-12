@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/maxArea/maxArea.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/maxArea/maxArea_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_maxArea in leetcode-go/company/alibaba/maxArea">
+  <component name="RunManager" selected="Python.findKthLargest">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -120,24 +119,34 @@
       <pattern value="^Test_maxArea$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_threeSum in leetcode-go/company/alibaba/threeSum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="findKthLargest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/threeSum" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/threeSum" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_threeSum$" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/company/alibaba/findKthLargest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findKthLargest" />
         <item itemvalue="Go Test.Test_maxArea in leetcode-go/company/alibaba/maxArea" />
         <item itemvalue="Go Test.TestLRUCache in leetcode-go/company/alibaba/LRUCache" />
         <item itemvalue="Go Test.Test_isPalindrome in leetcode-go/company/alibaba/isPalindrome" />
         <item itemvalue="Go Build.go build leetcode-go" />
-        <item itemvalue="Go Test.Test_threeSum in leetcode-go/company/alibaba/threeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -165,38 +174,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1578492350761" />
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578800641916">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578802133113">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578800641916" />
-    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578800641915">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578802133113" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578802133113">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578800641915" />
-    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578800641914">
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578802133113" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578802133112">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578800641914" />
-    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578800641915">
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578802133112" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578802133113">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578800641915" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578800641917">
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578802133113" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578802133641">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578800641917" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578800641916">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578802133641" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578802133640">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578800641916" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578800641916">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578802133640" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578802133640">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578800641916" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578800641917">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578802133640" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578802133640">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578800641917" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578802133640" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1578471629418">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -302,16 +311,6 @@
           <url>file://$PROJECT_DIR$/company/alibaba/LRUCache/LRUCache_test.go</url>
           <line>13</line>
           <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/company/alibaba/maxArea/maxArea.go</url>
-          <line>9</line>
-          <option name="timeStamp" value="231" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/company/alibaba/maxArea/maxArea.go</url>
-          <line>6</line>
-          <option name="timeStamp" value="232" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
