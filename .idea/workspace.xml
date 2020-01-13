@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/company/alibaba/mergeKLists/mergeKLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode-go.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/alibaba/findKthLargest/findKthLargest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -177,6 +178,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1578492350761" />
+    <state x="508" y="197" key="FileChooserDialogImpl" timestamp="1578886246777">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
     <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578882809970">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -209,10 +214,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578882809972" />
-    <state x="229" y="75" key="SettingsEditor" timestamp="1578471629418">
+    <state x="229" y="75" key="SettingsEditor" timestamp="1578892504407">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="229" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1578471629418" />
+    <state x="229" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1578892504407" />
     <state x="386" y="193" width="667" height="486" key="find.popup" timestamp="1577773715364">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
