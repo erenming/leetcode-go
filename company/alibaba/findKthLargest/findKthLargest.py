@@ -1,10 +1,9 @@
 import heapq
-from typing import List
 
 
 # for heap implementation
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
+    def findKthLargest(self, nums, k):
         h = []
         for i in nums:
             if len(h) < k:
