@@ -2,7 +2,7 @@ import heapq
 from typing import List
 
 
-# heap implementation
+# for heap implementation
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         h = []

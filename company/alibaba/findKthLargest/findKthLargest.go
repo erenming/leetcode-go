@@ -1,5 +1,6 @@
 package findKthLargest
 
+// for partition
 func findKthLargest(nums []int, k int) int {
 	var res int
 	lo, hi := 0, len(nums)-1
