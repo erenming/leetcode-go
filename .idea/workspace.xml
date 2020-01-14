@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/singleNumber/singleNumber.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/merge/merge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/merge/merge_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode-go">
+  <component name="RunManager" selected="Go Test.Test_merge in leetcode-go/company/alibaba/merge">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,6 +110,17 @@
       <pattern value="^Test_longestCommonPrefix$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_merge in leetcode-go/company/alibaba/merge" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/company/alibaba/merge" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/company/alibaba/merge" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_merge$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_permute in leetcode-go/backtracking/permute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/backtracking/permute" />
@@ -121,24 +132,13 @@
       <pattern value="^Test_permute$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_removeNthFromEnd in leetcode-go/company/alibaba/removeNthFromEnd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/removeNthFromEnd" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/removeNthFromEnd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_removeNthFromEnd$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_merge in leetcode-go/company/alibaba/merge" />
         <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_permute in leetcode-go/backtracking/permute" />
         <item itemvalue="Go Test.Test_longestCommonPrefix in leetcode-go/company/alibaba/longestCommonPrefix" />
         <item itemvalue="Go Test.Test_generateParenthesis in leetcode-go/company/alibaba/generateParenthesis" />
-        <item itemvalue="Go Test.Test_removeNthFromEnd in leetcode-go/company/alibaba/removeNthFromEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -170,38 +170,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1578926082245">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1578971623591">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578926082245" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1578926082244">
+    <state width="1398" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578971623591" />
+    <state width="1398" height="264" key="GridCell.Tab.0.center" timestamp="1578971623588">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578926082244" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1578926082244">
+    <state width="1398" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1578971623588" />
+    <state width="1398" height="264" key="GridCell.Tab.0.left" timestamp="1578971623587">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578926082244" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1578926082245">
+    <state width="1398" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1578971623587" />
+    <state width="1398" height="264" key="GridCell.Tab.0.right" timestamp="1578971623589">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578926082245" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578914218397">
+    <state width="1398" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1578971623589" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1578971623795">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578914218397" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578914218396">
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1578971623795" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1578971623794">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578914218396" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578914218396">
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1578971623794" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1578971623794">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578914218396" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578914218397">
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1578971623794" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1578971623795">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578914218397" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1578971623795" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1578892504407">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -322,6 +322,11 @@
           <url>file://$PROJECT_DIR$/company/alibaba/longestCommonPrefix/longestCommonPrefix.go</url>
           <line>12</line>
           <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/company/alibaba/merge/merge.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="255" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
