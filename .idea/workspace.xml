@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/178/178.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/sortList/sortList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/sortList/sortList_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/uniquePaths/uniquePaths.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/uniquePaths/uniquePaths_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_sortList in leetcode-go/company/alibaba/sortList">
+  <component name="RunManager" selected="Go Test.Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,17 +110,6 @@
       <pattern value="^Test_merge$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_permute in leetcode-go/backtracking/permute" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/backtracking/permute" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/backtracking/permute" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_permute$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_sortList in leetcode-go/company/alibaba/sortList" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/company/alibaba/sortList" />
@@ -133,13 +121,24 @@
       <pattern value="^Test_sortList$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/company/alibaba/uniquePaths" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/company/alibaba/uniquePaths" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_uniquePaths$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" />
         <item itemvalue="Go Test.Test_sortList in leetcode-go/company/alibaba/sortList" />
         <item itemvalue="Go Test.TestConstructor in leetcode-go/company/alibaba/MinStack" />
         <item itemvalue="Go Test.Test_merge in leetcode-go/company/alibaba/merge" />
         <item itemvalue="Go Build.go build leetcode-go" />
-        <item itemvalue="Go Test.Test_permute in leetcode-go/backtracking/permute" />
       </list>
     </recent_temporary>
   </component>
@@ -171,38 +170,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1579704156599">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1579749805015">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579704156599" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1579704156599">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579749805015" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1579749805014">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1579704156599" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1579704156598">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1579749805014" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1579749805012">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1579704156598" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1579704156599">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1579749805012" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1579749805014">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1579704156599" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1579664889946">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1579749805014" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1579749805205">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579664889946" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1579664889945">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579749805205" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1579749805204">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1579664889945" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1579664889945">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1579749805204" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1579749805204">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1579664889945" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1579664889945">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1579749805204" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1579749805205">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1579664889945" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1579749805205" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1578892504407">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -343,6 +342,11 @@
           <url>file://$PROJECT_DIR$/company/alibaba/sortList/sortList.go</url>
           <line>21</line>
           <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/company/alibaba/uniquePaths/uniquePaths.go</url>
+          <line>3</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
