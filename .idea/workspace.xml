@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/coinChange/coinChange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/coinChange/coinChange_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/letterCombinations/letterCombinations.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,16 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_coinChange in leetcode-go/company/alibaba/coinChange">
+  <component name="RunManager" selected="Go Build.go build leetcode-go">
+    <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="leetcode-go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestConstructor in leetcode-go/company/alibaba/MinStack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/company/alibaba/MinStack" />
@@ -99,17 +108,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_coinChange$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_merge in leetcode-go/company/alibaba/merge" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/merge" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/merge" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_merge$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_sortList in leetcode-go/company/alibaba/sortList" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_coinChange in leetcode-go/company/alibaba/coinChange" />
         <item itemvalue="Go Test.Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" />
         <item itemvalue="Go Test.Test_sortList in leetcode-go/company/alibaba/sortList" />
         <item itemvalue="Go Test.TestConstructor in leetcode-go/company/alibaba/MinStack" />
-        <item itemvalue="Go Test.Test_merge in leetcode-go/company/alibaba/merge" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +170,22 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1579760733494">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1580009285148">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579760733494" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1579760733493">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1580009285148" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1580009285147">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1579760733493" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1579760733493">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1580009285147" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1580009285147">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1579760733493" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1579760733494">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1580009285147" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1580009285148">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1579760733494" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1580009285148" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1579760507812">
       <screen x="0" y="23" width="1440" height="826" />
     </state>

@@ -16,7 +16,7 @@ func a(val int) {
 }
 
 func main() {
-	a := []int{0, 1}
-	a = append(a, nil...)
-	fmt.Println(a)
+	f := func() {}
+	f = nil
+	go f()
 }
