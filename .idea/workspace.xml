@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/deleteNode/deleteNode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/swapPairs/swapPairs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/swapPairs/swapPairs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/topKFrequent/topKFrequent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode-go">
+  <component name="RunManager" selected="Go Test.Test_swapPairs in leetcode-go/company/alibaba/swapPairs">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,17 +87,6 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="leetcode-go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestConstructor in leetcode-go/company/alibaba/MinStack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/MinStack" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/MinStack" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestConstructor$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_coinChange in leetcode-go/company/alibaba/coinChange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -119,6 +111,17 @@
       <pattern value="^Test_sortList$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_swapPairs in leetcode-go/company/alibaba/swapPairs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <working_directory value="$PROJECT_DIR$/company/alibaba/swapPairs" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-go/company/alibaba/swapPairs" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_swapPairs$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/company/alibaba/uniquePaths" />
@@ -132,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_swapPairs in leetcode-go/company/alibaba/swapPairs" />
         <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_coinChange in leetcode-go/company/alibaba/coinChange" />
         <item itemvalue="Go Test.Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" />
         <item itemvalue="Go Test.Test_sortList in leetcode-go/company/alibaba/sortList" />
-        <item itemvalue="Go Test.TestConstructor in leetcode-go/company/alibaba/MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -168,38 +171,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1580009285148">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1581048216753">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1580009285148" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1580009285147">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581048216753" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1581048216752">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1580009285147" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1580009285147">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581048216752" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1581048216752">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1580009285147" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1580009285148">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581048216752" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1581048216753">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1580009285148" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1579760507812">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581048216753" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581048216755">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1579760507812" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1579760507811">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581048216755" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581048216754">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1579760507811" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1579760507811">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581048216754" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581048216754">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1579760507811" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1579760507811">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581048216754" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581048216755">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1579760507811" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581048216755" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1580529985609">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
