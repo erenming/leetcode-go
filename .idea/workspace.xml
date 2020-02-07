@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/swapPairs/swapPairs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/swapPairs/swapPairs_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/alibaba/topKFrequent/topKFrequent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/topKFrequent/topKFrequent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/alibaba/topKFrequent/topKFrequent.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="$PROJECT_DIR$/arrays/twoSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_swapPairs in leetcode-go/company/alibaba/swapPairs">
+  <component name="RunManager" selected="Python.topKFrequent">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,17 +97,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_coinChange$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_sortList in leetcode-go/company/alibaba/sortList" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/sortList" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/sortList" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_sortList$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_swapPairs in leetcode-go/company/alibaba/swapPairs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -133,13 +121,34 @@
       <pattern value="^Test_uniquePaths$" />
       <method v="2" />
     </configuration>
+    <configuration name="topKFrequent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/company/alibaba/topKFrequent" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/company/alibaba/topKFrequent/topKFrequent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.topKFrequent" />
         <item itemvalue="Go Test.Test_swapPairs in leetcode-go/company/alibaba/swapPairs" />
         <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Go Test.Test_coinChange in leetcode-go/company/alibaba/coinChange" />
         <item itemvalue="Go Test.Test_uniquePaths in leetcode-go/company/alibaba/uniquePaths" />
-        <item itemvalue="Go Test.Test_sortList in leetcode-go/company/alibaba/sortList" />
       </list>
     </recent_temporary>
   </component>
@@ -171,38 +180,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1581048216753">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1581050852489">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581048216753" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1581048216752">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581050852489" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1581050852488">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581048216752" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1581048216752">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581050852488" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1581050852487">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581048216752" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1581048216753">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581050852487" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1581050852489">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581048216753" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581048216755">
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581050852489" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581050851002">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581048216755" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581048216754">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581050851002" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581050851002">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581048216754" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581048216754">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581050851002" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581050851002">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581048216754" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581048216755">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581050851002" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581050851002">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581048216755" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581050851002" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1580529985609">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -211,10 +220,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="386" y="193" width="667" height="486" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1580293485108" />
-    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup" timestamp="1578487108088">
+    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup" timestamp="1581049412832">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1578487108088" />
+    <state x="383" y="170" width="672" height="678" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1581049412832" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
