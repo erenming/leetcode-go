@@ -17,6 +17,7 @@ func TestSortSlice(t *testing.T) {
 	// testSortSlice(t, "merge")
 	// quick sort
 	testSortSlice(t, "quick")
+
 }
 
 func testSortSlice(t *testing.T, method string) {

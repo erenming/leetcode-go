@@ -8,9 +8,10 @@ func SortSlice(nums []int, method string) []int {
 		return selectSort(nums)
 	case "insert":
 		return insertSort(nums)
+	case "merge":
+		return mergeSort(nums)
 	case "quick":
-		return QuickSort(nums)
+		return quickSort(nums)
 	}
 	return nil
 }
-

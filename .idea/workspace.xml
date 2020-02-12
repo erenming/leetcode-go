@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/sorts/bubbleSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/insertSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/mergeSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/quickSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/selectSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/sorts.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/sorts/sorts_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/p1/p1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/p1/problem1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/p2/p2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/p3/p3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/sorts/mergeSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/sorts/mergeSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/sorts/quickSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/sorts/quickSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/sorts/sorts.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/sorts/sorts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/sorts/sorts_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/company/sorts/sorts_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,38 +182,42 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1581386229417">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1581480022733">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581386229417" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1581386229417">
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581480022733" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1581480022733">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581386229417" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1581386229416">
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581480022733" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1581480022732">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581386229416" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1581386229417">
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581480022732" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1581480022733">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581386229417" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581308148090">
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581480022733" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581479813020">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581308148090" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581308148090">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581479813020" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581479813019">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581308148090" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581308148090">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581479813019">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581308148090" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581308148090">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581479813019">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581308148090" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
+    <state x="539" y="154" key="RollbackChangesDialog" timestamp="1581391965842">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="539" y="154" key="RollbackChangesDialog/0.23.1440.826@0.23.1440.826" timestamp="1581391965842" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1580529985609">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -366,6 +363,16 @@
           <url>file://$PROJECT_DIR$/company/alibaba/jump/jump.go</url>
           <line>6</line>
           <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/company/sorts/mergeSort.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/company/sorts/mergeSort.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

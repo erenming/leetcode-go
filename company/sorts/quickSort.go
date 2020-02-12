@@ -1,6 +1,6 @@
 package sorts
 
-func QuickSort(nums []int) []int {
+func quickSort(nums []int) []int {
 	if nums == nil || len(nums) <= 1 {
 		return nums
 	}
@@ -19,7 +19,16 @@ func _sort(nums []int, lo, hi int) {
 }
 
 func partition(nums []int, lo int, hi int) int {
-	pivot := lo
-
-
+	pivot := hi
+	i, j := 0, hi-1
+	for i <= j {
+		if nums[i] > nums[pivot] {
+			nums[i], nums[j] = nums[j], nums[i]
+			j--
+		} else {
+			i++
+		}
+	}
+	nums[i], nums[pivot] = nums[pivot], nums[i]
+	return i
 }
