@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c285fa-b95d-44ac-8fd2-919d6c2797ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/alibaba/preorderTraversal/preorderTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/alibaba/addStrings/addStrings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/library" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSortSlice in leetcode-go/company/sorts">
+  <component name="RunManager" selected="Python.addStrings">
     <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,17 +98,6 @@
       <pattern value="^TestSortSlice$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_coinChange in leetcode-go/company/alibaba/coinChange" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-go" />
-      <working_directory value="$PROJECT_DIR$/company/alibaba/coinChange" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-go/company/alibaba/coinChange" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_coinChange$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_swapPairs in leetcode-go/company/alibaba/swapPairs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$/company/alibaba/swapPairs" />
@@ -118,6 +107,27 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_swapPairs$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="addStrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/company/alibaba/addStrings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/company/alibaba/addStrings/addStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="topKFrequent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.addStrings" />
         <item itemvalue="Go Test.TestSortSlice in leetcode-go/company/sorts" />
         <item itemvalue="Go Build.go build leetcode-go" />
         <item itemvalue="Python.topKFrequent" />
         <item itemvalue="Go Test.Test_swapPairs in leetcode-go/company/alibaba/swapPairs" />
-        <item itemvalue="Go Test.Test_coinChange in leetcode-go/company/alibaba/coinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +181,10 @@
     <proxy>https://goproxy.io/</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1581487068829">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="533" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1581487068829" />
     <state x="483" y="146" key="#xdebugger.evaluate" timestamp="1578492350761">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -179,38 +193,38 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="508" y="197" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1578886246777" />
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1581480034894">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1581488200067">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581480034894" />
-    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1581480034893">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581488200067" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1581488200066">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581480034893" />
-    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1581480034892">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1581488200066" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1581488200065">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581480034892" />
-    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1581480034893">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1581488200065" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1581488200066">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581480034893" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581479813020">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1581488200066" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1581488200068">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581479813020" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581479813019">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1581488200068" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1581488200067">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581479813019">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1581488200067" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1581488200067">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581479813019">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1581488200067" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1581488200067">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581479813019" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1581488200067" />
     <state x="539" y="154" key="RollbackChangesDialog" timestamp="1581391965842">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -370,6 +384,11 @@
           <url>file://$PROJECT_DIR$/company/sorts/mergeSort.go</url>
           <line>23</line>
           <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/company/alibaba/addStrings/addStrings.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="280" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
